@@ -174,7 +174,7 @@ class DetectorActivity : CameraActivity(), OnImageAvailableListener {
         trackingOverlay!!.addCallback(
             object : DrawCallback {
                 override fun drawCallback(canvas: Canvas?) {
-                    tracker!!.draw(canvas)
+                    tracker!!.draw(canvas!!)
                     if (isDebug) {
                         tracker!!.drawDebug(canvas)
                     }
