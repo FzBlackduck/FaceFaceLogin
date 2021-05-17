@@ -2,6 +2,9 @@
 
 The app is not currently successful.
 
-#Technical 
+# Technical 
 - Firebase ML KIT FaceDetection
 - Modal MobilefaceNet
+
+# Tool
+- Audroid Studio
